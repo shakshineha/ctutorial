@@ -1,1 +1,174 @@
-For the le
+
+1.First C Program code:
+                        #include <stdio.h>
+                        int main()
+                        {
+                            printf("Hello, World!\n");
+                            return 0;
+                        }
+                        
+                        
+2. 
+// C program to demonstrate working of binary arithmetic operators
+#include <stdio.h>
+  
+int main()
+{
+    int a = 10, b = 4, res;
+  
+    // printing a and b
+    printf("a is %d and b is %d\n", a, b);
+  
+    res = a + b; // addition
+    printf("a+b is %d\n", res);
+  
+    res = a - b; // subtraction
+    printf("a-b is %d\n", res);
+  
+    res = a * b; // multiplication
+    printf("a*b is %d\n", res);
+  
+    res = a / b; // division
+    printf("a/b is %d\n", res);
+  
+    res = a % b; // modulus
+    printf("a%b is %d\n", res);
+  
+    return 0;
+}
+
+3. 
+
+// C program to demonstrate working of Unary arithmetic operators
+#include <stdio.h>
+  
+int main()
+{
+    int a = 10, b = 4, res;
+  
+    // post-increment example:
+    // res is assigned 10 only, a is not updated yet
+    res = a++;
+    printf("a is %d and res is %d\n", a, res); // a becomes 11 now
+  
+    // post-decrement example:
+    // res is assigned 11 only, a is not updated yet
+    res = a--;
+    printf("a is %d and res is %d\n", a, res); // a becomes 10 now
+  
+    // pre-increment example:
+    // res is assigned 11 now since a is updated here itself
+    res = ++a;
+    // a and res have same values = 11
+    printf("a is %d and res is %d\n", a, res);
+  
+    // pre-decrement example:
+    // res is assigned 10 only since a is updated here itself
+    res = --a;
+    // a and res have same values = 10
+    printf("a is %d and res is %d\n", a, res);
+  
+    return 0;
+}
+
+4. // C Program to demonstrate the working of assignment operators
+#include <stdio.h>
+int main()
+{
+    int a = 5, c;
+
+    c = a;
+    printf("c = %d \n", c);
+
+    c += a; // c = c+a
+    printf("c = %d \n", c);
+
+    c -= a; // c = c-a
+    printf("c = %d \n", c);
+
+    c *= a; // c = c*a
+    printf("c = %d \n", c);
+
+    c /= a; // c = c/a
+    printf("c = %d \n", c);
+
+    c %= a; // c = c%a
+    printf("c = %d \n", c);
+
+    return 0;
+}
+
+5. // C Program to demonstrate the working of arithmetic operators
+#include <stdio.h>
+int main()
+{
+    int a = 5, b = 5, c = 10;
+
+    printf("%d == %d = %d \n", a, b, a == b); // true
+    printf("%d == %d = %d \n", a, c, a == c); // false
+
+    printf("%d > %d = %d \n", a, b, a > b); //false
+    printf("%d > %d = %d \n", a, c, a > c); //false
+
+
+    printf("%d < %d = %d \n", a, b, a < b); //false
+    printf("%d < %d = %d \n", a, c, a < c); //true
+
+
+    printf("%d != %d = %d \n", a, b, a != b); //false
+    printf("%d != %d = %d \n", a, c, a != c); //true
+
+
+    printf("%d >= %d = %d \n", a, b, a >= b); //true
+    printf("%d >= %d = %d \n", a, c, a >= c); //false
+
+
+    printf("%d <= %d = %d \n", a, b, a <= b); //true
+    printf("%d <= %d = %d \n", a, c, a <= c); //true
+
+    return 0;
+
+}
+
+6.// C Program to demonstrate the working of logical operators
+
+#include <stdio.h>
+int main()
+{
+    int a = 5, b = 5, c = 10, result;
+
+    result = (a == b) && (c > b);
+    printf("(a == b) && (c > b) equals to %d \n", result);
+
+    result = (a == b) && (c < b);
+    printf("(a == b) && (c < b) equals to %d \n", result);
+
+    result = (a == b) || (c < b);
+    printf("(a == b) || (c < b) equals to %d \n", result);
+
+    result = (a != b) || (c < b);
+    printf("(a != b) || (c < b) equals to %d \n", result);
+
+    result = !(a != b);
+    printf("!(a == b) equals to %d \n", result);
+
+    result = !(a == b);
+    printf("!(a == b) equals to %d \n", result);
+
+    return 0;
+}
+
+7. #include <stdio.h>
+int main()
+{
+    int a, e[10];
+    float b;
+    double c;
+    char d;
+    printf("Size of int=%lu bytes\n",sizeof(a));
+    printf("Size of float=%lu bytes\n",sizeof(b));
+    printf("Size of double=%lu bytes\n",sizeof(c));
+    printf("Size of char=%lu byte\n",sizeof(d));
+    printf("Size of integer type array having 10 elements = %lu bytes\n", sizeof(e));
+    return 0;
+}
