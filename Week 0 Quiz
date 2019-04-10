@@ -1,0 +1,81 @@
+1.Write a C program to perform input/output of all basic data types.
+
+2.Write a C program to enter two numbers and perform all arithmetic operations.
+
+3.Write a C program to enter length and breadth of a rectangle and find its area and perimeter.
+
+4.Write a C program to enter radius of a circle and find its diameter, circumference and area.
+
+5.Write a C program to enter temperature in Celsius and convert it into Fahrenheit.
+
+6.Write a C program to enter temperature in Fahrenheit and convert to Celsius.
+
+7.Write a C program to find out weather a year is leap year or not.
+
+8.Write a C program to find power of any number x ^ y.
+
+9.Write a C program to enter any number and calculate its square root.
+
+10.Write a C program to enter marks of five subjects and calculate total, average and percentage.
+
+11.Write a C program to enter P, T, R and calculate Compound Interest.
+
+12.Write a C program using loops to print the table of 9
+
+13. Find the output of the following code snippet
+        ** #include <stdio.h>
+          int main()
+          {
+            int x;
+            x = 10;
+
+            if(x > 10)
+              x -= 10;
+            else if(x >= 0)
+              x += 00;
+            else if(x)
+              x += 10;
+            else
+              x -= 10;
+
+            printf("%d\n",x);
+            return 0;
+          } **
+
+
+14. Find the output of the following code snippet
+     ** #include <stdio.h>
+        int main()
+        {
+          int a = -10, b = 20;
+
+          if(a > 0 && b < 0)
+            a++;
+          else if(a < 0 && b < 0)
+            a--;
+          else if(a < 0 && b > 0)
+            b--;
+          else
+            b--;
+
+          printf("%d\n",a + b);
+          return 0;
+        } **
+
+
+15. Find the output of the following code snippet
+
+     ** #include <stdio.h>
+        int main() 
+        {
+          int a= -1,b = -a;
+          int x,y;
+
+          x = (a> 0) && (b < 0) || (a< 0) && (b > 0);
+          y = (a<= 0) || (b >= 0) && (a>= 0) || (b <= 0);
+
+          printf("%d\n",x == y);
+
+          return 0;
+        } **
+
