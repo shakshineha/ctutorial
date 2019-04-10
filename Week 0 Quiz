@@ -23,7 +23,7 @@
 12.Write a C program using loops to print the table of 9
 
 13. Find the output of the following code snippet
-        ** #include <stdio.h>
+        **#include <stdio.h>
           int main()
           {
             int x;
@@ -40,11 +40,11 @@
 
             printf("%d\n",x);
             return 0;
-          } **
+          }**
 
 
 14. Find the output of the following code snippet
-     ** #include <stdio.h>
+     **#include <stdio.h>
         int main()
         {
           int a = -10, b = 20;
@@ -60,12 +60,12 @@
 
           printf("%d\n",a + b);
           return 0;
-        } **
+        }**
 
 
 15. Find the output of the following code snippet
 
-     ** #include <stdio.h>
+     **#include <stdio.h>
         int main() 
         {
           int a= -1,b = -a;
@@ -77,5 +77,5 @@
           printf("%d\n",x == y);
 
           return 0;
-        } **
+        }**
 
